@@ -1,0 +1,15 @@
+<p>delivery-tracker works!</p>
+<div>
+  <h1>Your Order is Ready!</h1>
+  <img [src]="productImg" alt="orderImg" width="250" height="250" />
+  <h3>Order Details</h3>
+  <ul>
+    <li>Order Id:{{ orderId }}</li>
+    <li>Order Agent:{{ deliveryAgentName }}</li>
+    <li>Customer Name: {{ customerName }}</li>
+    <li>Order Price: {{ orderPrice }}</li>
+    <li>Order Adress: {{ deliveryAddress }}</li>
+  </ul>
+  <button (click)="verifyOrder()">Click Here to Verify!</button>
+  <span>Order Status:{{orderVerified}}</span>
+</div>
