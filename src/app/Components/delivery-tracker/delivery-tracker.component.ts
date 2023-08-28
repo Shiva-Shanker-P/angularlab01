@@ -13,7 +13,7 @@ deliveryAddress: Array<String> = ['225 Baker Street']
 orderPrice: Number = 900
 orderVerified: String = 'Order not Verified!'
 orderPaymentStatus:String = 'Paid'
-productImg: String = 'https://static.toiimg.com//photo//msid87930581//87930581.jpg'
+productImg: String = 'https://static.toiimg.com//photo/msid87930581/87930581.jpg'
 
 constructor(){
 
